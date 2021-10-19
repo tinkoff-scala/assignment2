@@ -26,4 +26,5 @@ Implement all functions in Collections.scala file
     ```scala
     def womanMaxAge(building: Building): Int = ???
     ```
+1. Напишите тесты в BuildingSpec.scala
 
