@@ -14,7 +14,7 @@ Implement all functions in Collections.scala file
 (Первый параметр, это текущий аккумулятор. Второй, текущий этаж)<br/>
 Здание обходить снизу вверх. Аккумулятор изначально равен `acc0`
     ```scala
-    def protoFold(building: Building, acc0: Int)(f: (Int, ResidentialFloor) => Int): Int = ???
+    def protoFold[T](building: Building, acc0: T)(f: (T, ResidentialFloor) => T): T = ???
     ```
 1. Используя функцию `protoFold` посчитать количество этажей, где есть хотя бы один мужчина старше `olderThan` <br/>
 (если нет таких, то 0)
